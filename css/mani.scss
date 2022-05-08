@@ -1,0 +1,31 @@
+@import "libs/normalize";
+@import "libs/fonts";
+
+@import "parts/variables";
+
+@import "parts/globals";
+
+@import "parts/supports";
+
+@import "feauteres/sticky-footer";
+@import "feauteres/reverse-section";
+
+
+.header {
+  background-color: green;
+  padding: 50px 0;
+}
+
+.main {
+  background-color: yellow;
+  padding: 50px 0;
+}
+
+.footer {
+  background-color: gray;
+  padding: 50px 0;
+}
+
+
+
+

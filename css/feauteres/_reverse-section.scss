@@ -1,0 +1,10 @@
+.reverse-section {
+  display: grid;
+
+  &__last-item {
+    order: 999;
+  }
+  &__first-item {
+    order: -1;
+  }
+}

@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+button,
+input,
+textarea {
+    font: inherit;
+    color: inherit;
+    font-size: inherit;
+    letter-spacing: inherit;
+}
+
+body {
+    font-family: var(--font-1);
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+    color: var(--color-5);
+    text-transform: initial;
+    background-color: var(--color-1);
+}

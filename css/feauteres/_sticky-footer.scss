@@ -1,0 +1,10 @@
+.sticky-footer {
+  height: 100%;
+
+  &__grid {
+    display: grid;
+    min-height: 100%;
+    align-content: start;
+    grid-template-rows: min-content 1fr min-content;
+  }
+}
