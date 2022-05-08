@@ -1,0 +1,17 @@
+.footer {
+  &__text {
+    font-size: 0.875em;
+    color: var(--color-5);
+    margin: 0;
+  }
+
+  .wrapper {
+    padding-top: 40px;
+    padding-bottom:43px;
+
+    @media (max-width: 375px) {
+      padding-top: 24px;
+      padding-bottom:25px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+.hero {
+  &__img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: var(--radius-1);
+    overflow: hidden;
+  }
+}
