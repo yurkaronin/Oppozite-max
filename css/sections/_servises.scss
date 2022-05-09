@@ -1,0 +1,27 @@
+.services {
+  margin-bottom: 44px;
+
+  &__list {
+    display: flex;
+    gap: 42px 32px;
+    flex-wrap: wrap;
+
+    li {
+      width: calc(25% - ((32px * 3) / 4));
+
+      img {
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        margin-bottom: 21px;
+        border-radius: var(--radius-1);
+        overflow: hidden;
+      }
+    }
+
+  }
+
+  &__name {
+    margin: 0;
+  }
+}

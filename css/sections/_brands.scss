@@ -1,0 +1,20 @@
+.brands {
+  margin-bottom: 44px;
+
+  &__list {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+
+    li {
+      width: calc(25% - ((32px * 3) / 4));
+    }
+    a {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+
+  }
+
+}
