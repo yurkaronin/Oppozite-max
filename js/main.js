@@ -9,9 +9,12 @@ function init() {
   });
 
   let placemarRkschool = new ymaps.Placemark([45.013460, 38.958488], {}, {
-    iconLayout: 'default#image', /* говорим что будем отображать на карте в качестве геометки  */
-    iconImageHref: '../img/map/balun.svg', /* указываем пусть к картинке на нашем сайте  */
-    iconImageSize: [56, 80], /* размеры картинки  */
+    iconLayout: 'default#image',
+    /* говорим что будем отображать на карте в качестве геометки  */
+    iconImageHref: '../img/icons/balun.svg',
+    /* указываем пусть к картинке на нашем сайте  */
+    iconImageSize: [56, 80],
+    /* размеры картинки  */
     iconImageOffset: [-19, -44] /* отступ от центра  */
   });
 
@@ -36,3 +39,6 @@ function init() {
 }
 
 ymaps.ready(init);
+
+
+// Inputmask("+7 (999) 999-99-99").mask('[type="tel"]');
