@@ -1,21 +1,21 @@
 // Интерактивная карта с гео меткой
-let center = [45.013460, 38.958488];
+let center = [55.837458599741844,37.437410094494815];
 
 function init() {
 
   let map = new ymaps.Map("map", {
     center: center, // ваши данные
-    zoom: 15
+    zoom: 17
   });
 
-  let placemarRkschool = new ymaps.Placemark([45.013460, 38.958488], {}, {
+  let placemarRkschool = new ymaps.Placemark([55.837458599741844,37.437410094494815], {}, {
     iconLayout: 'default#image',
     /* говорим что будем отображать на карте в качестве геометки  */
-    iconImageHref: '../img/icons/balun.svg',
+    iconImageHref: '../img/icons/balun-2.svg',
     /* указываем пусть к картинке на нашем сайте  */
-    iconImageSize: [56, 80],
+    iconImageSize: [40, 54],
     /* размеры картинки  */
-    iconImageOffset: [-19, -44] /* отступ от центра  */
+    iconImageOffset: [-42, -42]
   });
 
   map.controls.remove('geolocationControl'); // удаляем геолокацию
@@ -31,10 +31,10 @@ function init() {
 
   placemarRkschool.events
     .add('mouseenter', function (e) {
-      e.get('target').options.set('iconImageHref', '../img/map/balun-2.svg');
+      e.get('target').options.set('iconImageHref', '../img/icons/balun-3.svg');
     })
     .add('mouseleave', function (e) {
-      e.get('target').options.set('iconImageHref', '../img/map/balun.svg');
+      e.get('target').options.set('iconImageHref', '../img/icons/balun-2.svg');
     });
 }
 

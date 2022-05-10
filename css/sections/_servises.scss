@@ -25,3 +25,23 @@
     margin: 0;
   }
 }
+
+@media (max-width: 768px) {
+  .services {
+    &__list {
+      li {
+        width: calc((100% / 3) - ((32px * 2) / 3));
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .services {
+    &__list {
+      li {
+        width: calc(50% - (32px / 2));
+      }
+    }
+  }
+}

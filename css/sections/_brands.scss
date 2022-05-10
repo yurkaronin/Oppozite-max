@@ -18,3 +18,23 @@
   }
 
 }
+
+@media (max-width: 768px) {
+  .brands {
+    &__list {
+      li {
+        width: calc((100% / 3) - ((32px * 2) / 3));
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .brands {
+    &__list {
+      li {
+        width: calc(50% - (32px / 2));
+      }
+    }
+  }
+}

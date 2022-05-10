@@ -6,3 +6,15 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 425px) {
+  .flex-list__big {
+    width: 100%;
+
+    .button {
+      width: 100%;
+      max-width: 100%;
+
+    }
+  }
+}

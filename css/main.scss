@@ -24,9 +24,27 @@
 @import "sections/contacts";
 @import "sections/footer";
 
+.contacts__map {
+  height: 350px;
+  margin-bottom: 48px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
 .map {
   width: 100%;
   height: 100%;
   position: relative;
   z-index: 10;
+}
+
+/** dealer-detail */
+[class*="copyrights-pane"] {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .contacts__map {
+    height: 240px;
+  }
 }
