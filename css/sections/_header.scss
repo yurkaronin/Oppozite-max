@@ -8,3 +8,13 @@
     gap: 48px;
   }
 }
+
+@media (max-width: 425px) {
+  .header {
+    padding-top: 20px;
+  padding-bottom: 30px;
+    &__flex {
+      gap: 20px;
+    }
+  }
+}

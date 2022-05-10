@@ -68,7 +68,10 @@
   <main class="main">
     <section class="hero pb">
       <div class="wrapper">
-        <img class="hero__img" src="./img/hero/1.jpg" alt="фотография авто">
+        <picture>
+          <source media="(max-width: 425px)" srcset="./img/hero/1-425.jpg">
+          <img class="hero__img" src="./img/hero/1.jpg" alt="фотография авто">
+        </picture>
       </div>
     </section>
     <section class="services">
@@ -412,11 +415,13 @@
             </a></li>
         </ul>
         <p class="contacts__text">Адрес: Москва, Строительный проезд д.1 (в яндекс навигаторе набирать oppozitemax)</p>
-        <div class="contacts__map">
-          <div id="map" class="map"></div>
-        </div>
       </div>
     </section>
+    <div class="map">
+      <div class="wrapper">
+        <div id="map" class="map__content"></div>
+      </div>
+    </div>
   </main>
   <footer class="footer">
     <div class="wrapper bt">

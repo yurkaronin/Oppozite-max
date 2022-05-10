@@ -15,3 +15,9 @@
     color: var(--color-7);
   }
 }
+
+@media (max-width: 425px) {
+  .logo {
+    gap: 10px;
+  }
+}

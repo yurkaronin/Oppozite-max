@@ -5,16 +5,26 @@
   list-style: none;
   margin: 0;
   padding: 0;
+
+  .button {
+    width: 100%;
+    max-width: 100%;
+
+  }
+
 }
 
 @media (max-width: 425px) {
-  .flex-list__big {
-    width: 100%;
+  .flex-list {
+    gap: 14px;
 
-    .button {
-      width: 100%;
-      max-width: 100%;
-
+    li {
+      flex-grow: 1;
     }
+
+    &__big {
+      width: 100%;
+    }
+
   }
 }
