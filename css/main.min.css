@@ -721,4 +721,9 @@ body {
     padding-bottom: 25px;
   }
 }
+
+.map {
+  width: 1024px;
+  height: 350px;
+}
 /*# sourceMappingURL=main.min.css.map */
