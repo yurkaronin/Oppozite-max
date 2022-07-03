@@ -31,10 +31,10 @@ function init() {
 
   placemarRkschool.events
     .add('mouseenter', function (e) {
-      e.get('target').options.set('iconImageHref', 'https://demo-vg.tmweb.ru/oppozitemax/img/icons/balun-3.svg');
+      e.get('target').options.set('iconImageHref', './img/icons/balun-3.svg');
     })
     .add('mouseleave', function (e) {
-      e.get('target').options.set('iconImageHref', 'https://demo-vg.tmweb.ru/oppozitemax/img/icons/balun-2.svg');
+      e.get('target').options.set('iconImageHref', './oppozitemax/img/icons/balun-2.svg');
     });
 }
 
