@@ -11,7 +11,7 @@ function init() {
   let placemarRkschool = new ymaps.Placemark([55.837458599741844,37.437410094494815], {}, {
     iconLayout: 'default#image',
     /* говорим что будем отображать на карте в качестве геометки  */
-    iconImageHref: 'https://demo-vg.tmweb.ru/oppozitemax/img/icons/balun-2.svg',
+    iconImageHref: './img/icons/balun-2.svg',
     /* указываем пусть к картинке на нашем сайте  */
     iconImageSize: [40, 54],
     /* размеры картинки  */
@@ -34,7 +34,7 @@ function init() {
       e.get('target').options.set('iconImageHref', './img/icons/balun-3.svg');
     })
     .add('mouseleave', function (e) {
-      e.get('target').options.set('iconImageHref', './oppozitemax/img/icons/balun-2.svg');
+      e.get('target').options.set('iconImageHref', './img/icons/balun-2.svg');
     });
 }
 
